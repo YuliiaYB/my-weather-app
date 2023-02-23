@@ -1,0 +1,112 @@
+.container {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(148, 241, 246) 0%,
+    rgb(148, 189, 246) 100.7%
+  );
+  border: 1px solid rgb(148, 189, 246);
+  margin: 40px;
+  padding: 30px 50px 30px 50px;
+  border-radius: 40px;
+  width: 800px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.date-time {
+  color: #007cb9;
+  text-shadow: rgba(0, 0, 255, 0.2) 1px 0 10px;
+}
+
+.search {
+  border-radius: 10px;
+  border: #005689;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+  margin-right: 10px;
+}
+
+#current-buttom {
+  position: relative;
+  left: 280px;
+  top: -38px;
+}
+
+.weather-today {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(148, 241, 246) 0%,
+    rgb(148, 189, 246) 100.7%
+  );
+  border-radius: 40px;
+  margin-top: 40px;
+  border: 1px solid white;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #005689;
+}
+
+.temperature-today {
+  text-align: center;
+  font-size: 70px;
+  color: #005689;
+}
+
+.units {
+  text-align: left;
+  font-size: 20px;
+  color: #005689;
+  position: relative;
+  top: -40px;
+}
+
+.temperature-today-icon {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.indicators {
+  color: #007cb9;
+}
+
+.make_middle {
+  margin-top: 25px;
+}
+.weather-week {
+  text-align: center;
+  margin-top: 40px;
+  color: #005689;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(148, 241, 246) 0%,
+    rgb(148, 189, 246) 100.7%
+  );
+  margin: 0 20px;
+  width: 4em;
+  height: 4em;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.cloud {
+  color: white;
+}
+
+.sun {
+  color: #ff895d;
+}
+
+.week-days-temperature {
+  color: #007cb9;
+}
